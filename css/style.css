@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,500;0,600;1,100;1,200;1,500;1,600&display=swap');
+
+
+body{
+	font-family:'Raleway', sans-serif;
+}
+header{
+	font-weight: 800;
+}
+
+.bar h2{
+	color:#BA1924;
+}
+
+header{
+	background-color: #fff;
+}
+
+
+.info-hero{
+	width: 70%;
+	
+}
+
+#hero{
+	background-image:url("../../landing-page/img/jellies.jpg");
+	background-size: cover;
+	color: #fff;
+	font-size: 20px;
+	padding-top: 50px;
+	overflow: inherit;
+	
+}
+
+
+.overlay{
+	background-color:rgba(0,0,0,0.35);
+	height: 90vh;
+	padding: 10% 0;
+}
+
+#reviews{
+	font-size: 20px;
+	background-color:#BA1924;
+}
+
+#reviews h2{
+	font-weight: 600;
+}
+
+.reviews{
+	background-color:#BA1924;
+	width: 85%;
+	text-align: center;
+	margin:auto;
+}
+
+.btn-dark{
+	border-color: #fff;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	border-radius: 0;
+	padding: 15px 30px;
+	font-size: 24px;
+}
+.btn-dark:hover{
+	border-collapse: #000;
+	text-align: center;
+	background-color: #fff;
+	color: #000;
+}
+
+#about{
+	width: 65%;
+	padding: 5% 0%;
+	font-size:20px;
+	
+}
+
+.about{
+	width: 75%;
+	text-align: center;
+	margin:auto;
+}
+
+.section{
+	padding: 5% 0;
+}
+
+#newsletter{
+	background-image:url("../../landing-page/img/pexels-abhishek-gaurav-1318477.jpg");
+	background-size: cover;
+	color: #fff;
+	
+}
+
+#works{
+	width: 75%;
+	text-align: center;
+	margin:auto;
+}
+
+#works .card, .card-body{
+	border-color:transparent;
+}
+
+#footer{
+	text-align: center;
+	background-color:#BA1924;
+	font-size: 20px;
+	padding:10px 0px;
+}
+
+
+#newsletter{
+	background-image: url("../img/roses.jpg");
+	background-size: cover;
+	opacity: 1;
+    transition: opacity 0.5s ease;
+	background-repeat: no-repeat;
+    background-position: center;
+	padding-top: 60px;
+	padding-bottom: 40px;
+	margin-top: 5%;
+}
+
+
+
+	#newsletter h2{
+    color: #fff;
+	text-align: center;
+	font-size: 25px;
+		font-weight: 600;
+}
+
+
+#newsletter p {
+    color: #fff;
+	font-size: 15px;
+	text-align: center;
+	padding-top: 2%;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+    font-style: italic; 
+	background-color: transparent; 
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+	background-color: transparent;
+}
+
+input[type="submit"] {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 0px;
+	border: 1px solid #fff;
+}
+
+input[type="submit"]:hover {
+	background-color: transparent;
+	color: #D0181B;
+	border: 1px solid #fff;
+}
+
+
+#newsletter {
+    color: #fff; 
+    background-color: transparent; 
+}
